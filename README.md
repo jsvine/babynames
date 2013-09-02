@@ -14,7 +14,7 @@ This repo contains CSVs of the [Social Security Administration's baby-name data]
 
 - [fetch-births.py](bin/fetch-births.py): A basic web-scraper to turn [this table](http://www.ssa.gov/oact/babynames/numberUSbirths.html) into a CSV file.
 
-- [fetch-name-counts.py][bin/fetch-name-counts.py]: Extracts all files from the SSA's [national baby names ZIP file](http://www.ssa.gov/oact/babynames/limits.html) and combines the data into a single CSV.
+- [fetch-name-counts.py](bin/fetch-name-counts.py): Extracts all files from the SSA's [national baby names ZIP file](http://www.ssa.gov/oact/babynames/limits.html) and combines the data into a single CSV.
 
 - [combine-data.py](bin/combine-data.py): For each year/sex/name combination, calculates the proportion it represents of all births for that year and sex, using the datasets fetched by the two scripts above. By default, outputs only the top 1,000 names for each year/sex. To generate a file with a different threshold, pass that number as the first command line argument to the script. E.g.:
 
