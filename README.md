@@ -18,5 +18,5 @@ This repo contains CSVs of the [Social Security Administration's baby-name data]
 
 - [combine-data.py](bin/combine-data.py): For each year/sex/name combination, calculates the proportion it represents of all births for that year and sex, using the datasets fetched by the two scripts above. By default, outputs only the top 1,000 names for each year/sex. To generate a file with a different threshold, pass that number as the first command line argument to the script. E.g.:
 
-    ./bin/combine-data.py 2000 > data/top2000.csv
+        ./bin/combine-data.py 2000 > data/top2000.csv
 
