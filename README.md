@@ -1,4 +1,4 @@
-# Baby Name Data Fetcher
+# Baby Name Data & Data-Fetchers
 
 This repo contains CSVs of the [Social Security Administration's baby-name data](http://www.ssa.gov/oact/babynames/limits.html), as well as Python scripts for updating this data.
 
